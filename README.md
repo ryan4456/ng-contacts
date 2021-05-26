@@ -25,3 +25,23 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## modules
+
+### common
+1. navbar
+2. sidebar
+
+### user 
+1. signin
+2. signup
+
+### contact
+1. contact-list
+2. contact-new
+3. contact-edit
+
+### tag
+1. tag-list
+2. tag-new
+3. tag-edit
