@@ -43,3 +43,11 @@ body {
     text-align: center;
   }
   
+
+  .ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; /* green */
+  }
+
+  .ng-invalid[required] {
+    border-left: 5px solid #e44708;
+  }
