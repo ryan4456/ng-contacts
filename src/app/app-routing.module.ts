@@ -31,7 +31,7 @@ const routes: Routes = [
   {path: 'tags', component: LayoutComponent, canActivate: [AuthGuardGuard], children: [
     {path: '', component: TagListComponent},
     {path: 'new', component: TagNewComponent},
-    {path: 'edit', component: TagEditComponent}
+    {path: 'edit/:id', component: TagEditComponent}
   ]}
 
 ];

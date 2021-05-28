@@ -118,10 +118,6 @@
   ],
   "tags": [
     {
-      "id": 1,
-      "title": "朋友"
-    },
-    {
       "id": 2,
       "title": "家人"
     },
@@ -139,13 +135,5 @@
       "id": 5
     }
   ],
-  "contacts": [
-    {
-      "name": "Yanan Li",
-      "phone": "0211318510",
-      "email": "luulsj@163.com",
-      "userId": 25,
-      "id": 1
-    }
-  ]
+  "contacts": []
 }

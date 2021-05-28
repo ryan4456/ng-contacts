@@ -1,1 +1,24 @@
-<p>tag-edit works!</p>
+<h2 class="sub-header">编辑标签</h2>
+<div class="table-responsive">
+  <form (submit)="handleSubmit()" #tagForm="ngForm">
+    <div class="form-group">
+      <label for="title">标签名称</label>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Title"
+        name="title"
+        required
+        [(ngModel)]="tag.title"
+        #title="ngModel"
+      />
+      <div
+        *ngIf="title.invalid && (title.dirty || title.touched)"
+        class="alert alert-danger"
+      >
+        <div *ngIf="title.errors?.required">Title is required.</div>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-info" [disabled]="!tagForm.form.valid">保存</button>
+  </form>
+</div>
