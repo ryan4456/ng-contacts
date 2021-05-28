@@ -26,7 +26,7 @@ const routes: Routes = [
   {path: 'contacts', component: LayoutComponent, canActivate: [AuthGuardGuard], children: [
     {path: '', component: ContactListComponent},
     {path: 'new', component: ContactNewComponent},
-    {path: 'edit', component: ContactEditComponent}
+    {path: 'edit/:id', component: ContactEditComponent}
   ]},
   {path: 'tags', component: LayoutComponent, canActivate: [AuthGuardGuard], children: [
     {path: '', component: TagListComponent},

@@ -114,26 +114,6 @@
       "email": "hahs@itcast.cn",
       "password": "e10adc3949ba59abbe56e057f20f883e",
       "id": 23
-    },
-    {
-      "email": "test@test.com",
-      "password": "e10adc3949ba59abbe56e057f20f883e",
-      "id": 24
-    },
-    {
-      "email": "luulsj@163.com",
-      "password": "e10adc3949ba59abbe56e057f20f883e",
-      "id": 25
-    },
-    {
-      "email": "luulsj1@163.com",
-      "password": "e10adc3949ba59abbe56e057f20f883e",
-      "id": 26
-    },
-    {
-      "email": "luulsj3@163.com",
-      "password": "e10adc3949ba59abbe56e057f20f883e",
-      "id": 27
     }
   ],
   "tags": [
@@ -161,18 +141,11 @@
   ],
   "contacts": [
     {
-      "name": "张三123",
-      "email": "zs@zs.com",
-      "phone": "123456",
-      "userId": 15,
+      "name": "Yanan Li",
+      "phone": "0211318510",
+      "email": "luulsj@163.com",
+      "userId": 25,
       "id": 1
-    },
-    {
-      "name": "李四456",
-      "email": "ls@lisi.com",
-      "phone": "15801230123",
-      "userId": 15,
-      "id": 2
     }
   ]
 }
